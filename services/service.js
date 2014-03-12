@@ -8,3 +8,11 @@ exports.hello = function(callback) {
 
   callback();
 };
+
+/**
+ * サンプルの関数です。
+ * 整数を２つ受け取り、足した結果をコールバックに渡します。
+ */
+exports.add = function() {
+
+};
