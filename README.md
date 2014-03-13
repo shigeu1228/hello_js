@@ -21,7 +21,7 @@ call 'hello' function
 called callback
 ```
 と出力されれば成功です！  
-※``sample.js``を確認して、どこから"call 'hello' function"が出力されてるか確認してみてください。
+※``sample.js``を確認して、どこから``call 'hello' function``が出力されてるか確認してみてください。
   
 &nbsp;  
 
@@ -68,3 +68,13 @@ mocha test/test.js -R spec
   1 passing (11ms)
 ```
 これが、JavaScriptのテスト駆動開発です。  
+  
+&nbsp;  
+*** 
+
+### Lesson 4
+  
+今度は、下記のようにテストを実行して、すべてのテストが通るようにしてみましょう。  
+```sh
+mocha test/training.js -R spec
+```
