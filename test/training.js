@@ -15,29 +15,29 @@ describe('#training', function() {
      * 引数を渡し、3で割り切れれば'fizz'、5で割り切れれば'buzz'、3でも5でも割り切れれば'fizz buzz'が返ります。
      * 上記のいずれかでも無ければnullを返します。
      */
-     it ('fizz', function(done) {
-        var result = service.fizzBuzz(3);
-        expect(result).to.be('fizz');
-        done();
-     });
+    it ('fizz', function(done) {
+      var result = service.fizzBuzz(3);
+      expect(result).to.be('fizz');
+      done();
+    });
 
-     it ('buzz', function(done) {
-        var result = service.fizzBuzz(5);
-        expect(result).to.be('buzz');
-        done();
-     });
+    it ('buzz', function(done) {
+      var result = service.fizzBuzz(5);
+      expect(result).to.be('buzz');
+      done();
+    });
 
-     it ('fizz buzz', function(done) {
-        var result = service.fizzBuzz(15);
-        expect(result).to.be('fizz buzz');
-        done();
-     });
+    it ('fizz buzz', function(done) {
+      var result = service.fizzBuzz(15);
+      expect(result).to.be('fizz buzz');
+      done();
+    });
 
-     it ('null', function(done) {
-        var result = service.fizzBuzz(2);
-        expect(result).to.be(null);
-        done();
-     });
+    it ('null', function(done) {
+      var result = service.fizzBuzz(2);
+      expect(result).to.be(null);
+      done();
+    });
 
   });
 
