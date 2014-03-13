@@ -11,7 +11,7 @@ http://nodejs.jp/
 ```
   
 &nbsp;  
-
+*** 
 ### Lesson 1
   
 まずはnodeコマンドを使ってサンプルプログラムを実行してみましょう。  
@@ -24,7 +24,7 @@ called callback
 ※``sample.js``を確認して、どこから``call 'hello' function``が出力されてるか確認してみてください。
   
 &nbsp;  
-
+*** 
 ### Lesson 2
 
 各種ライブラリをインストールしてみましょう。  
@@ -33,7 +33,7 @@ hello_jsディレクトリで``npm install``と打って実行すると、``node
 ※``lodash``というライブラリと、``async.js``というライブラリがどういうものか調べてみてください。  
   
 &nbsp;  
-
+*** 
 ### Lesson 3
 
 簡単な関数を作ってみましょう。  
@@ -75,6 +75,17 @@ mocha test/test.js -R spec
 ### Lesson 4
   
 今度は、下記のようにテストを実行して、すべてのテストが通るようにしてみましょう。  
+今回は実行される関数を作るところから始めてみましょう。
 ```sh
 mocha test/training.js -R spec
+```
+  
+&nbsp;  
+*** 
+### Lesson 5
+
+``./test/bugfix.js``に、問題が含まれており通らないテストがいくつかあります。
+下記のようにテストを実行して、すべてのテストが通るようにしてみましょう。  
+```sh
+mocha test/bugfix.js -R spec
 ```
